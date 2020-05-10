@@ -1,0 +1,70 @@
+@font-face {
+	font-family: "DungGeunMo";
+	src: url("fonts/DungGeunMo.otf");
+	src: url("fonts/DungGeunMo.ttf") format('truetype');
+}
+
+body {
+	background-color: #3366cc; 
+	font-family: 'DungGeunMo', sans-serif;
+}
+
+p {
+	text-align: center;
+	color: black;
+	padding-top: 0px;
+}
+
+.window {
+	background-color: lightgray;
+	border: 2px solid gray;
+	padding: 3px 3px 30px 3px;
+	margin: 20px;
+	box-shadow: 2px 2px 5px 0px black;
+}
+
+.menu {
+	background-color: #000099;
+	height: 30px;
+}
+
+.content {
+	background-color: white;
+	padding: 20px; 
+}
+
+.control {
+	list-style: none;
+	float: right;	
+	margin: 0;
+	padding: 0;
+}
+
+.control li {
+	background-color: lightgray;
+	border: 1px solid gray;
+	float: left;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-left: -1px;
+	line-height: 28px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+a:link, a:visited {
+  	color: black;
+  	padding: 10px 10px;
+  	text-align: center;
+  	text-decoration: none;
+	display: inline-block;
+}	
+
+a:hover, a:active {
+	color: green;
+  	border-radius: 10px;
+	background-color: black;
+}
